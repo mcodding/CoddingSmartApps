@@ -28,9 +28,6 @@ definition(
 
 preferences() {
 	
-	section("Choose Interlock...") {
-		input "switch", "capability.switch"
-	
 	section("Choose thermostat...") {
 		input "thermostat", "capability.thermostat"
 	}
