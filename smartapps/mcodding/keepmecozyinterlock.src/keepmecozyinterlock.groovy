@@ -1,3 +1,4 @@
+
 /**
  *  Copyright 2015 SmartThings
  *
@@ -21,8 +22,9 @@ definition(
     author: "SmartThings",
     description: "Enables you to pick an alternative temperature sensor in a separate space to control the thermostat. Also adds an interlock feature to temporarily disable the app.",
     category: "My Apps",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Meta/temp_thermo.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Meta/temp_thermo@2x.png",
+    iconUrl: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/temperature-3-icon.png",
+    iconX2Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/temperature-3-icon.png",
+    iconX3Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/32/temperature-3-icon.png",	
     pausable: true
 )
 
