@@ -19,15 +19,17 @@ definition(
     name: "KeepMeCozyInterlock",
     namespace: "mcodding",
     author: "SmartThings",
-    description: "Enables you to pick an alternative temperature sensor in a separate space to control the thermostat. Also adds an interlock feature to temporarily disable the App",
-    category: "My Apps",
-    iconUrl: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/temperature-3-icon.png",
-    iconX2Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/temperature-3-icon.png",
-    iconX3Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/32/temperature-3-icon.png"
+    description: "Works the same as Keep Me Cozy, but enables you to pick an alternative temperature sensor in a separate space from the thermostat. Focuses on making you comfortable where you are spending your time rather than where the thermostat is located.",
+    category: "Green Living",
+    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Meta/temp_thermo.png",
+    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Meta/temp_thermo@2x.png",
     pausable: true
 )
 
 preferences() {
+	
+	section("Choose Interlock...") {
+		input "switch", "capability.switch"
 	
 	section("Choose thermostat...") {
 		input "thermostat", "capability.thermostat"
