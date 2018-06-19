@@ -25,7 +25,7 @@ definition(
     iconUrl: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/temperature-3-icon.png",
     iconX2Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/temperature-3-icon.png",
     iconX3Url: "http://icons.iconarchive.com/icons/fatcow/farm-fresh/32/temperature-3-icon.png",	
-    pausable: true
+    pausable: "true"
 )
 
 preferences() {
